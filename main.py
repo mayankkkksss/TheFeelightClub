@@ -1,5 +1,4 @@
 import os
-
 import requests_cache
 from datetime import datetime, timedelta
 from data_manager import DataManager
