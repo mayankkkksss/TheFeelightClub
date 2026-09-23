@@ -7,13 +7,13 @@ from flight_data import find_cheapest_flight
 from notification_manager import NotificationManager
 
 #===================== Used to preserve API response to reduce usage =====================
-requests_cache.install_cache(
-    "flight_cache",
-    urls_expire_after={
-        "*.sheety.co*": requests_cache.DO_NOT_CACHE,
-        "*": 3600,
-    }
-)
+# requests_cache.install_cache(
+#     "flight_cache",
+#     urls_expire_after={
+#         "*.sheety.co*": requests_cache.DO_NOT_CACHE,
+#         "*": 3600,
+#     }
+# )
 
 #===================== Dates =====================
 today = datetime.now().date()
