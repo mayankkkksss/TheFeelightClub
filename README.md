@@ -261,7 +261,7 @@ When a direct flight cannot be found, the program automatically attempts an indi
 
 Request caching is not currently enabled.
 
-The caching code from the course remains commented out in `main.py`.
+The caching code from the file remains commented out in `main.py`.
 
 ## What I Practiced
 
