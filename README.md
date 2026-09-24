@@ -189,8 +189,8 @@ MY_EMAIL="your_email_address"
 MY_EMAIL_PASSWORD="your_email_password_or_app_password"
 
 # Currency
-CURRENCY_SYMBOL="£"
-CURRENCY_CODE="GBP"
+CURRENCY_SYMBOL="₹"
+CURRENCY_CODE="INR"
 ```
 
 Replace the placeholder values with your own configuration.
