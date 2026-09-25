@@ -1,7 +1,5 @@
 # The Feelight Club
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
 A Python flight deal tracker that searches for cheap flights and sends notifications when a flight is found below the target price.
 
 The project uses **Google Sheets + Sheety** for destination and customer data, **SerpAPI Google Flights** for flight searches, **Twilio** for WhatsApp/SMS notifications, and **Gmail SMTP** for email notifications.
