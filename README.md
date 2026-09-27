@@ -285,4 +285,6 @@ The caching code from the course remains commented out in `main.py`.
 
 This project was built as part of **100 Days of Code: The Complete Python Pro Bootcamp** by Angela Yu.
 
+---
+
 **This README.md is AI-generated; perception are not.**
