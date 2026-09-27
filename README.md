@@ -1,7 +1,5 @@
 # The Feelight Club
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
 A Python flight deal tracker that searches for cheap flights and sends notifications when a flight is found below the target price.
 
 The project uses **Google Sheets + Sheety** for destination and customer data, **SerpAPI Google Flights** for flight searches, **Twilio** for WhatsApp/SMS notifications, and **Gmail SMTP** for email notifications.
@@ -189,8 +187,8 @@ MY_EMAIL="your_email_address"
 MY_EMAIL_PASSWORD="your_email_password_or_app_password"
 
 # Currency
-CURRENCY_SYMBOL="£"
-CURRENCY_CODE="GBP"
+CURRENCY_SYMBOL="₹"
+CURRENCY_CODE="INR"
 ```
 
 Replace the placeholder values with your own configuration.
@@ -261,7 +259,7 @@ When a direct flight cannot be found, the program automatically attempts an indi
 
 Request caching is not currently enabled.
 
-The caching code from the course remains commented out in `main.py`.
+The caching code from the file remains commented out in `main.py`.
 
 ## What I Practiced
 
